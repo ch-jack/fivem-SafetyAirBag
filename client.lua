@@ -13,4 +13,5 @@ function OpenAirBag(currentCar)
 		Wait(5)
 	end
 	StartNetworkedParticleFxNonLoopedOnEntity("bang_sand", propAirbag, 0, 0, 0.4, 0.0, 0.0, 0.0, 0.4, 0, 0, 0)
+	return propAirbag
 end
